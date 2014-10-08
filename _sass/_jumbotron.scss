@@ -18,6 +18,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.nav-padder {
+  width: 100%;
+}
 .nav {
   position: fixed;
   width: 100%;
@@ -56,16 +59,30 @@ html {
   z-index: 0;
   @include prefix(animation, fadeincorner 2.5s);
 }
+.first-page {
+  position: relative;
+  height: 100%;
+}
+.teams {
+  padding: 50px 5%;
+  img {
+    float: right;
+    max-height: 100px;
+  }
+}
 .jumbotron {
   height: 100%;
   width: 100%;
+
+  overflow: hidden;
+
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
   padding: 0 5%;
-  justify-content: space-around;
+  @include prefix(justify-content, space-around);
 
   img {
     background-color: white;
@@ -74,6 +91,7 @@ html {
   div {
     max-width: 640px;
     max-height: 75%;
+    overflow-y: auto;
   }
   div, img {
     z-index: 1;

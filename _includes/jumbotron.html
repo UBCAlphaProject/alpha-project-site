@@ -1,14 +1,15 @@
-
-<div class="nav">
-  <a href="/">Project Alpha</a>
-  <a href="/blog">Blog</a>
-  <a href="/team">Team</a>
-  <a href="https://github.com/d4l3k">Source</a>
-</div>
-<div class="jumbotron">
-  <img src="/images/alpha_project_logo.jpg">
-  <div>
-    {{ content }}
+{% include header.html %}
+<div class="first-page">
+  <div class="jumbotron">
+    <img src="/images/alpha_project_logo.jpg">
+    <div>
+      {{ content }}
+    </div>
   </div>
+  <div class="corner"></div>
 </div>
-<div class="corner"></div>
+<div class="teams">
+  {% capture my_include %}{% include teams.md %}{% endcapture %}
+  {{ my_include | markdownify }}
+</div>
+{% include footer.html %}
