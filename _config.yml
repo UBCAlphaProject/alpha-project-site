@@ -1,12 +1,12 @@
 # Site settings
 title: Alpha Project
-email: your-email@domain.com
+email: president@alphaproject.me
 description: > # this means to ignore newlines until "baseurl:"
   Alpha Project is a UBC Club in which members collectively work together to create a single open source software engineering project.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://alphaproject.fn.lc" # the base hostname & protocol for your site
+twitter_username: UBCAlphaProject
+github_username:  UBCAlphaProject
 
 # Build settings
 markdown: kramdown
