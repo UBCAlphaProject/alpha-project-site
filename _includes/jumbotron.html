@@ -2,14 +2,23 @@
 <div class="first-page">
   <div class="jumbotron">
     <img src="/images/alpha_project_logo.jpg">
-    <div>
-      {{ content }}
-    </div>
   </div>
   <div class="corner"></div>
 </div>
-<div class="teams">
-  {% capture my_include %}{% include teams.md %}{% endcapture %}
-  {{ my_include | markdownify }}
+<div id="about" class="container">
+  {{ content }}
+</div>
+<div id="team" class="container">
+  <h1>The Team</h1>
+  {% for member in site.data.team %}
+  <div class="member col-md-6">
+    <img src="{{member.img}}"/>
+    <h2>{{ member.name }}</h2>
+    <p>{{ member.desc | markdownify }}</p>
+    <p>
+    GitHub: <a href="https://github.com/{{member.github}}">{{member.github}}</a>
+    </p>
+  </div>
+  {% endfor %}
 </div>
 {% include footer.html %}
