@@ -1,13 +1,7 @@
-- name: Tristan Rice
-  github: d4l3k
-  img: /images/tristan_rice.png
-  desc: Tristan Rice is a first year Computer Science major.
-
-- name: Kamil Khan
-  github: Woof
-  img: /images/kamil_khan.jpg
-  desc: >
-    Kamil Khan is a second year Business and Computer Science major, interested in project management and Human Computer Interaction. Kamil has had experience creating the Riverside Debate Club, and is currently the VP Finance of the [UBC Business Communications Club](http://www.bizzcomm.ca).
+- name: Abrar Musa
+  github: todo
+  img: http://placekitten.com/g/150/200
+  desc: TODO
 
 - name: Andrew Comminos
   github: morlunk
@@ -20,13 +14,19 @@
   img: /images/jonathan_stiasen.jpg
   desc: TODO
 
-- name: Abrar Musa
-  github: todo
-  img: http://placekitten.com/g/200/300
-  desc: TODO
+- name: Kamil Khan
+  github: Woof
+  img: /images/kamil_khan.jpg
+  desc: >
+    Kamil Khan is a second year Business and Computer Science major, interested in project management and Human Computer Interaction. Kamil has had experience creating the Riverside Debate Club, and is currently the VP Finance of the [UBC Business Communications Club](http://www.bizzcomm.ca).
 
 - name: Arie Milner
   github: todo
-  img: http://placekitten.com/g/200/300
+  img: http://placekitten.com/g/150/200
   desc: TODO
+
+- name: Tristan Rice
+  github: d4l3k
+  img: /images/tristan_rice.jpg
+  desc: Tristan Rice is a first year Computer Science major.
 

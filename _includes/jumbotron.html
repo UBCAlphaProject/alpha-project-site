@@ -12,7 +12,7 @@
   <h1>The Team</h1>
   {% for member in site.data.team %}
   <div class="member col-md-6">
-    <img src="{{member.img}}"/>
+    <div class="img" style="background-image: url({{member.img}})"></div>
     <h2>{{ member.name }}</h2>
     <p>{{ member.desc | markdownify }}</p>
     <p>

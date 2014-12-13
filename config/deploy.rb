@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'bundler'
 Bundler.require
 
@@ -10,8 +12,8 @@ set :repository, 'https://github.com/UBCAlphaProject/alpha-project-site.git'
 task :deploy do
     deploy do
         invoke :'git:clone'
-        queue 'ls'
         queue 'bundle'
-        queue 'bower install'
+        queue 'bower install > /dev/null'
+        queue 'jekyll build'
     end
 end

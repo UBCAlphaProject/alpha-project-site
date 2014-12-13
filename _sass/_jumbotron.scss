@@ -67,10 +67,16 @@ html {
   overflow: hidden;
 }
 .member {
-  img {
+  .img {
+    display: inline-block;
     float: right;
-    max-height: 200px;
+    width: 150px;
+    height: 200px;
     margin-left: 10px;
+
+    background: url('http://i.stack.imgur.com/jGlzr.png') no-repeat 0 0 scroll;
+    background-color:#0C0C0C;
+    background-size: 100% 100%;
   }
   margin-bottom: 10px;
 }
