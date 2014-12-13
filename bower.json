@@ -1,0 +1,19 @@
+{
+  "name": "alpha-project-site",
+  "version": "0.0.0",
+  "homepage": "https://github.com/UBCAlphaProject/alpha-project-site",
+  "authors": [
+    "Tristan Rice <rice@fn.lc>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.0.2"
+  }
+}
