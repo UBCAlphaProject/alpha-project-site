@@ -1,5 +1,5 @@
 - name: Abrar Musa
-  github: todo
+  github: abrarmusa
   img: http://placekitten.com/152/200
   desc: TODO
 
@@ -10,18 +10,18 @@
     Andrew is a 2nd year computer science student specializing in mobile and GNU/Linux software development. Recently, he has been interested in systems programming and developing powerful FOSS solutions for the Android platform. Some of his work can be found [here](https://www.morlunk.com/).
 
 - name: Jonathan Stiasen
-  github: todo
+  github: jonathanstiansen
   img: /images/jonathan_stiasen.jpg
   desc: TODO
 
 - name: Kamil Khan
-  github: Woof
+  github: Kamil1
   img: /images/kamil_khan.jpg
   desc: >
     Kamil Khan is a second year Business and Computer Science major, interested in project management and Human Computer Interaction. Kamil has had experience creating the Riverside Debate Club, and is currently the VP Finance of the [UBC Business Communications Club](http://www.bizzcomm.ca).
 
 - name: Arie Milner
-  github: todo
+  github: amilner42
   img: http://placekitten.com/151/200
   desc: TODO
 
