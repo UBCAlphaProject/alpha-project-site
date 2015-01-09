@@ -1,7 +1,8 @@
 - name: Abrar Musa
   github: abrarmusa
-  img: http://placekitten.com/152/200
-  desc: TODO
+  img: /images/abrar.jpg
+  desc: >
+    Abrar is a 2nd year BCS student interested in application performance optimization and algorithm optimization. He is currently a full stack Ruby-on-Rails software developer working on a web financial terminal that analyzes live financial data.
 
 - name: Andrew Comminos
   github: morlunk
@@ -12,7 +13,8 @@
 - name: Jonathan Stiasen
   github: jonathanstiansen
   img: /images/jonathan_stiasen.jpg
-  desc: TODO
+  desc: >
+    Jonathan is current working on his M.Sc in computer science. He is interested designing good software and creating software that will help others do the same. In his spare time Jonathan like to watch Netflix with his wife, hike, climb, and do various other sunny weather activities.
 
 - name: Kamil Khan
   github: Kamil1
@@ -22,11 +24,13 @@
 
 - name: Arie Milner
   github: amilner42
-  img: http://placekitten.com/151/200
-  desc: TODO
+  img: /images/arie.jpg
+  desc: >
+    Arik a second year computer science student at UBC currently on a Co-op term at Ericsson.
 
 - name: Tristan Rice
   github: d4l3k
   img: /images/tristan_rice.jpg
-  desc: Tristan Rice is a first year Computer Science major.
+  desc: >
+    Tristan Rice is a first year Computer Science major and will interning at Google in the summer of 2015.
 
